@@ -73,6 +73,10 @@ class StatsVisualizer:
 
     def _find_chinese_font(self):
         font_paths = [
+            os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'simhei.ttf')),
+            "/System/Library/Fonts/PingFang.ttc",
+            "/System/Library/Fonts/STHeiti Medium.ttc",
+            "/Library/Fonts/Arial Unicode.ttf",
             "C:/Windows/Fonts/simhei.ttf",
             "C:/Windows/Fonts/simsun.ttc",
             "C:/Windows/Fonts/simkai.ttf",
